@@ -9,5 +9,6 @@ end
   def reverse_each_word(str)
   str_Arr = str.split(' ')
   new_str = str_Arr.collect { |word| word.reverse() } 
- return new_str
+  new_str.join(' ')
+  new_str
 end
